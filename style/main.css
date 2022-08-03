@@ -1,0 +1,285 @@
+/*
+	Website 5 Annapurna Bhojnalaya
+    All right reserved by Mayank
+    css: style/main
+*/
+
+*
+{
+    margin: 0;
+    font-family:'calibri';
+    color:var(--color-c);
+    border:none;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+:root
+{
+    --color-a:white;
+    --color-b:black;
+    --color-c:olivedrab;
+    --color-d:#77a123;
+    --color-e:brown;
+}
+
+body
+{
+    scroll-behavior: smooth;
+    background: var(--color-b) url(../food/f20.jpg) fixed no-repeat;
+    /* background: white; */
+    background-size: cover;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+main
+{
+    display: grid;
+    grid-template-rows: 100vh auto 100vh 100vh auto;
+}
+
+.center
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header
+{
+    width:100%;
+    position:fixed;
+    z-index:10;
+    height: 8vh;
+    background:var(--color-a);
+    box-shadow: 2px 0 5px var(--color-b);
+    border-radius:0;
+}
+#srch_fld
+{
+    width: 200px;
+    padding:10px;
+    text-align: right;
+    font-size:16px;
+    border-bottom: 1px solid var(--color-c);
+}
+/* menu{} */
+a
+{
+    margin:20px;
+    color:var(--color-c);
+    font-size: 20px;
+}
+a:hover
+{
+    color:var(--color-b);
+}
+a:active
+{
+    color:var(--color-b);
+}
+.link1
+{
+    color:var(--color-b);
+    font-size: 30px;
+}
+
+/*
+    home css ----------------
+*/
+
+#home
+{
+    margin-top: 20px;
+    text-align: center;
+}
+.img2
+{
+    margin-top: 10%;
+    width:200px;
+    height: 200px;
+    
+}
+h1
+{
+    margin-top: 5%;
+    font-family: forte;
+    color:var(--color-c);
+}
+h4
+{
+    width:50%;
+    margin: 3% auto;
+    color:var(--color-b);
+    font:20px 'script mt';
+}
+.scl
+{
+    width: 50%;
+    margin: 5% auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.img3
+{
+    width:40px;
+    height: auto;
+}
+.img3:hover
+{
+    box-shadow: 3px 3px 5px var(--color-b);
+}
+/*
+    menu css -----------------
+*/
+#items
+{
+    padding: 20px;
+    display: flex;
+    flex-flow: wrap row;
+    align-items:center;
+    justify-content: space-evenly;
+}
+figure
+{
+    margin:20px auto;
+    width:300px;
+    height:380px;
+    padding:10px;
+    background: var(--color-a);
+    box-shadow: 3px 3px 5px var(--color-b);
+}
+figure img
+{
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+}
+.property
+{
+    padding:10px;
+    color:red;
+    display:flex;
+    justify-content: space-between;
+}
+figure b, figure i
+{
+    font-size: 20px;
+}
+.str2
+{
+    
+}
+
+/* 
+    Service css ----------------------
+*/
+.serve
+{
+    position: relative;
+    width:300px;
+    padding:10px;
+    height: 500px;
+    background:var(--color-a);
+    
+    box-shadow: 3px 3px 5px var(--color-b);
+}
+h2
+{
+    padding:10px 20px;
+    font:20px 'forte';
+}
+.img4
+{
+    width:100%;
+    height:200px;
+    object-fit: cover;
+}
+p
+{
+    padding: 10px;
+    color:var(--color-b);
+    font:16px 'script mt';
+}
+.str
+{
+    position: absolute;
+    left: 10px;
+    bottom: 30px;
+    font-size: 25px;
+}
+.btn1
+{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    width:150px;
+    padding:15px;
+    font-size: 18px;
+    color:var(--color-a);
+    background:var(--color-c);
+    
+}
+.btn1:hover
+{
+    background:var(--color-d);
+}
+/*
+    order css ----------------
+*/
+form
+{
+    width: 80%;
+    padding:20px;
+    background:var(--color-a);
+    
+    box-shadow: 3px 3px 5px var(--color-b);
+}
+h3
+{
+    padding:20px;
+    text-align: center;
+    font:20px 'forte';
+}
+label
+{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+b
+{
+    color:var(--color-b);
+}
+.fld
+{
+    width: 60%;
+    padding: 5px;
+    font-size:18px;
+    border: 1px solid var(--color-c);
+    color: var(--color-b);
+}
+.btn2
+{
+    width:200px;
+    padding:15px;
+    font-size: 18px;
+    color:var(--color-a);
+    background:var(--color-c);
+    
+}
+.btn2:hover
+{
+    background:var(--color-d);
+}
+/*
+    footer css ---------------
+*/
+footer
+{
+    padding: 20px;
+    color:var(--color-c);
+    background: var(--color-a);
+}
